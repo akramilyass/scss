@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wraper {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.wraper .req {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+}
+.wraper .req p, .wraper .req a {
+  padding-block: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  width: 14.2857142857%;
+  border: 1px solid black;
+  text-align: center;
+}/*# sourceMappingURL=orders.css.map */

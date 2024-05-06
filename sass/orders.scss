@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wraper{
+    width: 100%;
+    height: fit-content;
+    .req{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 1rem;
+        p,a{
+            padding-block: .5rem;
+            font-family: 'Poppins',sans-serif;
+            text-transform: capitalize;
+            width: calc(100% / 7) ;
+            //background-color: antiquewhite;
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+    }
+}
